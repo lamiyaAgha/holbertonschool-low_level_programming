@@ -7,8 +7,8 @@ int main(void)
     while (i <= '9')
     {
       putchar(i);
-      putchar(",");
-      putchar(" ");
+      putchar(',');
+      putchar(' ');
       i++;
     }
     putchar("\n");
