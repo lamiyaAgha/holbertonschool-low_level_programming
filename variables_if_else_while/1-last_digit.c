@@ -24,6 +24,6 @@ int main(void)
 	  {
 	    printf("%d is less than 6 and not 0",n%10>5);
 	  }
-	printf("\n")
-	  return (0);
+	printf("\n");
+	return (0);
 }
