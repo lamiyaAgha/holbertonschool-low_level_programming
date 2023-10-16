@@ -8,8 +8,7 @@ int main(void)
       for (j = '0'; j <= '9'; j++)
         {
             putchar(i);
-            putchar(',');
-            putchar(' ');
+            putchar(", ");
             putchar(j);
             putchar('\n');
         }
