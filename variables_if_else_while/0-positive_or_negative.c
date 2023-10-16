@@ -1,10 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-this is betty styled code,you know?
-*/
 
+/**
+ * main - Entry point
+ *
+ * Description: This program generates a random number and
+ * determines whether it is positive, zero, or negative.
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
     int n;
@@ -31,3 +36,4 @@ int main(void)
 
     return (0);
 }
+
