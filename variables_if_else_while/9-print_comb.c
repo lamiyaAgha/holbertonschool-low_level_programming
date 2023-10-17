@@ -22,7 +22,8 @@ putchar(' ');
 else
 {
 putchar('\n');
-} 
+}
+i++;
 }
 return (0);
 }
