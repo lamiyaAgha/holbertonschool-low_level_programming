@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * more headers goes there 
-*/
+ */
 
 int main(void)
 {
