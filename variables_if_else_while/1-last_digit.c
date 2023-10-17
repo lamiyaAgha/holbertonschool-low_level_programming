@@ -2,6 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ * MAIN-ENTRY POINT
+ * DESCRIPTION : GREATER ZERO OR LESS
  * THIS IS BETTY STYLE
  * CODE
  */
