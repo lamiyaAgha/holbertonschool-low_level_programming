@@ -2,15 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * more headers goes there 
+ * THIS IS BETTY STYLE
+ * CODE
  */
-
 int main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-/* your code goes there */
 printf("Last digit of %d is ", n);
 
 if (n % 10 > 5)
