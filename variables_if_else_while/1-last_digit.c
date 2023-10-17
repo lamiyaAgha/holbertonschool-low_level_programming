@@ -2,11 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * MAIN-ENTRY POINT
- * DESCRIPTION : GREATER ZERO OR LESS
- * THIS IS BETTY STYLE
- * CODE
+ * main - Entry point
+ *
+ * Description: This program generates a random number and
+ * determines whether it is positive, zero, or negative.
+ *
+ * Return: Always 0
  */
+
 int main(void)
 {
 int n;
