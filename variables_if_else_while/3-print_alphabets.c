@@ -1,28 +1,27 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description: This program generates a random number and
+ * determines whether it is positive, zero, or negative.
+ *
+ * Return: Always 0
+ */
 
 int main(void)
 {
-    char letter = 'a';
-
-    /* Print lowercase alphabet*/
-    while (letter <= 'z')
-    {
-        putchar(letter);
-        letter++;
-    }
-
-    /*  Reset letter to 'A' for uppercase */
-    letter = 'A';
-
-    /* Print uppercase alphabet */
-    while (letter <= 'Z')
-    {
-        putchar(letter);
-        letter++;
-    }
-
-    /* Print a newline character */
-    putchar('\n');
-
-    return 0;
+char letter = 'a';
+while (letter <= 'z')
+{
+putchar(letter);
+letter++;
+}
+letter = 'A';
+while (letter <= 'Z')
+{
+putchar(letter);
+letter++;
+}
+putchar('\n');
+return (0);
 }
