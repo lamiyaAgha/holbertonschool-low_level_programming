@@ -11,13 +11,18 @@
 int main(void)
 {
 int i = '0';
-putchar(i);
-do
+while (i <= '9')
 {
-i++;
+putchar(i);
+if (i != '9')
+{
 putchar(',');
 putchar(' ');
-putchar(i);
-} while (i <= '8');
+}
+else
+{
+putchar('\n');
+} 
+}
 return (0);
 }
