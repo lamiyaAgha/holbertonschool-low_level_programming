@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include </root/holbertonschool-low_level_programming/functions_nested_loops/main.h>
+#include <main.h>
 /**
  * main - Entry point
  *
