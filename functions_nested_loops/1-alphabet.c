@@ -1,8 +1,8 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main-check the code
- * return:always 0.
+ * Main-check the code
+ * Return:always 0.
  */
 
 int main(void)
