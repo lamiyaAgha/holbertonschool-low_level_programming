@@ -1,7 +1,11 @@
 #include "main.h"
 /**
- * Main-check the code
- * Return:always 0.
+ * main - Entry point
+ *
+ * Description: This program generates a random number and
+ * determines whether it is positive, zero, or negative.
+ *
+ * Return: Always 0
  */
 
 int main(void)

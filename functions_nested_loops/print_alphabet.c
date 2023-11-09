@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd.h>
 
 void print_alphabet(void)
 {
